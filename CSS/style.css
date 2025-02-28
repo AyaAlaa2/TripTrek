@@ -1,0 +1,296 @@
+* {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.line {
+  width: 70px;
+  margin: 5px;
+  height: 3px;
+}
+.btn1 {
+  color: rgb(250, 129, 49);
+}
+.btn1::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  z-index: -1;
+  top: 0;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  transition: all 0.3s;
+}
+.btn1:hover::after {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(250, 129, 49);
+}
+.btn1:hover {
+  color: white;
+}
+.btn2 {
+  color: white;
+  background: rgb(250, 129, 49);
+  border: 1px solid rgb(250, 129, 49);
+}
+.btn2:hover {
+  color: rgb(250, 129, 49);
+  background: -webkit-linear-gradient(
+    top,
+    rgb(255, 255, 255),
+    rgb(181, 181, 181)
+  );
+}
+.btn3 {
+  color: white;
+  transition: all 0.5s;
+  background: rgb(12, 152, 21);
+  border: 1px solid rgb(12, 152, 21);
+}
+.btn3:hover {
+  color: rgb(12, 152, 21);
+  background: -webkit-linear-gradient(
+    top,
+    rgb(255, 255, 255),
+    rgb(181, 181, 181)
+  );
+}
+header .navbar .collapse .navbar-nav .destinationLink:hover .firstLetter {
+  color: rgb(250, 129, 49);
+  transform: scale(1.1, 1.1);
+}
+.social-btn {
+  background-color: rgba(211, 125, 54, 0.3);
+}
+.social-btn:hover {
+  background-color: rgb(250, 129, 49);
+  color: white;
+}
+.wh-300px {
+  width: 300px !important;
+  height: 300px !important;
+}
+.wh-180px {
+  width: 180px !important;
+  height: 180px !important;
+}
+.wh-100px {
+  width: 100px !important;
+  height: 100px !important;
+}
+.wh-70px {
+  width: 70px !important;
+  height: 70px !important;
+}
+.wh-50px {
+  width: 50px !important;
+  height: 50px !important;
+}
+.w-80 {
+  width: 80% !important;
+}
+.w-40 {
+  width: 40% !important;
+}
+.bg-orange {
+  background-color: rgb(250, 129, 49) !important;
+}
+.text-orange {
+  color: rgb(250, 129, 49) !important;
+}
+.bg-green {
+  background-color: #166a04 !important;
+}
+.text-green {
+  color: #166a04 !important;
+}
+.fs-50px {
+  font-size: 50px !important;
+}
+.p-x-50 {
+  padding: 50px 25px 25px 25px !important;
+}
+.z-m1 {
+  z-index: -1 !important;
+}
+.end-15 {
+  left: 15% !important;
+}
+.bottom-10 {
+  bottom: 10% !important;
+}
+.transitionAll {
+  transition: all 0.5s !important;
+} /* Top Destination start */
+.headerOfSection {
+  background: -webkit-linear-gradient(left, #166a04, #10dc17, #10dc17, #10dc17);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headerOfSection1 {
+  background: -webkit-linear-gradient(left, #166a04, #166a04, #10dc17, #10dc17);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.firstSection .card .text-sideDest .card-body .lineSec {
+  width: 50px;
+  height: 4px;
+}
+.firstSection .card:hover .text-sideDest .card-body .lineSec {
+  width: 150px;
+}
+.firstSection .card .img-SideDest .destination-img {
+  transform: skew(-10deg) translateX(-45px);
+}
+.firstSection .card .img-SideDest .destination-img2 {
+  transform: skew(10deg) translateX(45px);
+}
+.gallery .gallery-item img {
+  height: 300px;
+  object-fit: cover;
+}
+.gallery .gallery-item .gallery-content .gallery-info {
+  margin-bottom: -100%;
+  opacity: 0;
+}
+.gallery .gallery-item .gallery-plus-icon {
+  opacity: 0;
+}
+.gallery .gallery-item:hover .gallery-content .gallery-info,
+.gallery .gallery-item:hover .gallery-plus-icon {
+  opacity: 1;
+  margin: 0;
+}
+.gallery .gallery-item:hover img {
+  transform: scale(1.2);
+}
+.gallery .gallery-item:hover .gallery-content {
+  background: rgba(0, 0, 0, 0.7);
+}
+.gallery .tab-class .nav-item {
+  padding: 0 0 20px 0;
+}
+.guide .guide-item .guide-img .guide-img-efects::after {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.guide .guide-item:hover .guide-img .guide-img-efects::after {
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background: rgba(175, 175, 175, 0.5);
+}
+.guide .guide-item .guide-img .guide-icon {
+  border: 1px solid rgb(250, 129, 49);
+}
+.guide .guide-item .guide-img .guide-icon a {
+  background-color: rgb(250, 129, 49);
+  color: white;
+}
+.guide .guide-item .guide-img .guide-icon a:hover {
+  background-color: rgb(223, 223, 223);
+  color: rgb(250, 129, 49);
+}
+.guide .guide-item .guide-title::after {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: 0.5s;
+}
+.guide .guide-item:hover .guide-title::after {
+  height: 100%;
+  background: rgb(250, 129, 49) !important;
+  color: white;
+}
+.guide .guide-item:hover .guide-title .guide-title-inner {
+  position: relative;
+  color: white !important;
+  z-index: 2;
+}
+.guide .guide-item:hover .guide-title .guide-title-inner h4 {
+  color: white;
+}
+.bg-grdient-white {
+  background: -webkit-linear-gradient(
+    top,
+    rgb(255, 255, 255),
+    rgb(195, 195, 195)
+  );
+}
+.adventureSection .adven .card:hover {
+  background: rgb(250, 129, 49);
+  transform: scale(1.05);
+}
+.adventureSection .adven .card h5 {
+  color: rgb(250, 129, 49);
+}
+.adventureSection .adven .card:hover h5 {
+  color: white;
+}
+.footer .footer-item a {
+  line-height: 30px;
+  color: white;
+  transition: 0.5s;
+}
+.footer .footer-item a:hover {
+  transform: scale(1.05, 1.05);
+  color: rgb(0, 0, 0);
+}
+/* Responsive design */
+@media (max-width: 992px) {
+  .w-m-250 {
+    width: 250px !important;
+    height: 250px !important;
+  }
+  .firstSection .card {
+    height: 500px;
+  }
+  .firstSection .card .img-SideDest .destination-img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 765px) {
+  .firstSection .card {
+    height: 570px;
+  }
+  .firstSection .card .text-sideDest{
+    width: 100%;
+    height: 100%;
+  }
+  .firstSection .card .img-SideDest {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .firstSection .card .img-SideDest .destination-img {
+    object-fit: cover;
+    transform: skew(0deg) translateX(0px);
+  }
+  .firstSection .card .img-SideDest .destination-img2 {
+    object-fit: cover;
+    transform: skew(0deg) translateX(0px);
+  }
+  .guide .travelCol {
+    height: 350px;
+    margin-bottom: 30px;
+  }
+  .guide .travelCol .guide-item .guide-img .guide-img-efects img {
+    height: 250px;
+    object-fit: cover;
+  }
+}
